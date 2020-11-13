@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "post_table")
-data class Posts(
+data class Post(
     @PrimaryKey(autoGenerate = false)
     val id: Int,
     val body: String,
